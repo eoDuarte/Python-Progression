@@ -1,0 +1,8 @@
+a = input('write something to know its primitive type:')
+print('Only have spaces?', a.isspace())
+print('Only have number?', a.isnumeric())
+print('Its Alphabetical?', a.isalpha())
+print('Its alphanumeric?', a.isalpha())
+print('Is it capital letters?', a.isupper())
+print('Is it in lowercase?', a.islower())
+print('Is it capitalized?', a.istitle())
