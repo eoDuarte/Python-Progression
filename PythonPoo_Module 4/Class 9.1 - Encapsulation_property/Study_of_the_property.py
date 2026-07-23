@@ -13,5 +13,6 @@ class Avaliation:
     def grade(self,value):
         if 0 <= value <= 10:
             self._grade = value
+
         else:
             print("Invalid grade")
